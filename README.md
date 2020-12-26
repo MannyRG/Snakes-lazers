@@ -1,15 +1,13 @@
-# ThA SnAke GAme#
+# ThA SnAke GAme V2#
 
 The Snake Game your about to see, seems like you typical snake game at first but its much harder that that, its a two Player based game, with obsticals
 
 ![ThA SnAke GAme](https://images-na.ssl-images-amazon.com/images/I/518xyJeQD6L.jpg)
 
 ### Instruction
-
 * You Can move your snake freely in any drirrection or stay stationary
 * the length of your snake is limit less,
 * Th twist is that you have lazers trying to shoot you down
-* You lso have a secondary person trying to beat
 
 ## Overview
 
@@ -19,7 +17,12 @@ curretly the obsticals wont do any damage or end the game but the player wont "K
 
 There are simple rules eat the fruit and reach 100 points before the other player, the third rules is DON'T TOUCH THE LAZERS but they wont do anything, the third rule is so that the player can be tricked and struggle to eat the fruit with out touching the lazers.
 
-### Future,
+### Old Version
+check out the old version
+
+- https://pages.git.generalassemb.ly/syt/SnakeGame.Github.io/
+
+### Future
 My team and i are going to continue working on adding more fetures like
 diffrent types of obsticals, More players, take player point by eating there tails,
 this can become somthing simalare to slither.io
