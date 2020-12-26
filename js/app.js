@@ -397,38 +397,35 @@ const direction=(event)=>{
 
 
 const gameOverAlert=()=>{
+    if(gameOver){
+        ctx.fillStyle = "#4A9541";
+        ctx.fillRect(75,37, 150, 75)
 
-if(gameOver){
+        ctx.fillStyle = "white";
+        ctx.font = '30px serif';
+        ctx.fillText('Game Over', 78, 75)
+        ctx.font = '15px serif';
+        ctx.fillText('Click play Again Below', 78, 90)
+        ctx.font = '15px serif';
+        ctx.fillText(`Score: ${snake.score * snake.trail.length}`, 120, 110)
 
-    ctx.fillStyle = "#4A9541";
-    ctx.fillRect(75,37, 150, 75)
+        const handleClick=()=>{
+            window.location.reload()
+        }
+        const playBttn = document.createElement("button")
+        const playText = document.createElement("p")
+        playBttn.classList.add("playbttn")
+        playBttn.addEventListener('click', handleClick ) 
 
-    ctx.fillStyle = "white";
-    ctx.font = '30px serif';
-    ctx.fillText('Game Over', 78, 75)
-    ctx.font = '15px serif';
-    ctx.fillText('Click play Again Below', 78, 90)
-    ctx.font = '15px serif';
-    ctx.fillText(`Score: ${snake.score * snake.trail.length}`, 120, 110)
 
-    const handleClick=()=>{
-        window.location.reload()
+        playText.innerHTML= "Play Again"
+        playBttn.appendChild(playText)
+
+        const playAgain = document.querySelector("div.PlayAgain")
+        playAgain.appendChild(playBttn)
+
+        gameOver = false
     }
-    const playBttn = document.createElement("button")
-    const playText = document.createElement("p")
-    playBttn.classList.add("playbttn")
-    playBttn.addEventListener('click', handleClick ) 
-
-
-    playText.innerHTML= "Play Again"
-    playBttn.appendChild(playText)
-
-    const playAgain = document.querySelector("div.PlayAgain")
-    playAgain.appendChild(playBttn)
-
-    gameOver = false
-}
-
 }
 
 
