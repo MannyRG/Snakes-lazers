@@ -30,15 +30,15 @@ this can become somthing simalare to slither.io
 ## Overall
 Great Job getting to this part hope you enjoy the game and if you have any question or would like to contibute please reach out to us
 
-## Resorces
--https://htmlcolorcodes.com/
--https://api.jquery.com/
--https://developer.mozilla.org/en-US/docs/Web/JavaScript
--https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
+## Resorces:
+- https://htmlcolorcodes.com/
+- https://api.jquery.com/
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript
+- https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
 
-## Other UseFull Resorces
--https://mojs.github.io/
--https://airbnb.io/lottie/#/
+## Other UseFull Resorces:
+- https://mojs.github.io/
+- https://airbnb.io/lottie/#/
 
 
 
